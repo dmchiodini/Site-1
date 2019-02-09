@@ -152,7 +152,6 @@ nav .active a, nav a:hover {
     flex-direction: row;
     height: 2px;
     width: 100%;
-    
 }
 
 .bar_left {
@@ -258,7 +257,6 @@ nav .active a, nav a:hover {
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-
 }
 
 .form_left {
@@ -326,8 +324,7 @@ footer {
     width: 100%;
     height: auto;
     background-color: #3496d3;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
 }
 
 .footer_int {
@@ -335,7 +332,6 @@ footer {
     justify-content: space-between;
     height: auto;
     flex: 1;
-    
 }
 
 .footer_phone, .footer_mail, .footer_adress {
@@ -345,7 +341,6 @@ footer {
     flex-direction: column;
     color: #FFF;
     font-size: 18px;
-
 }
 
 .phone_img, .mail_img, .adress_img {
@@ -385,7 +380,6 @@ footer {
         align-items: center;
         width: auto;
         height: auto;
-
     }
 
 }
@@ -407,7 +401,6 @@ footer {
         align-items: center;
         width: auto;
         height: auto;
-
     }
 
     .geral_left {
@@ -426,7 +419,6 @@ footer {
 
     .geral_right {
         display: none;
-
     }
 
     #services {
@@ -448,7 +440,6 @@ footer {
 }
 
 @media (min-width: 730px) and (max-width: 900px) {
-
     
     .top1 {
         display: none;
@@ -487,7 +478,6 @@ footer {
         align-items: center;
         width: auto;
         height: auto;
-    
     }
     
     .geral_left {
@@ -506,7 +496,6 @@ footer {
     
     .geral_right {
         display: none;
-    
     }
 
     #banner h1{
@@ -540,7 +529,6 @@ footer {
         flex-direction: column;
         justify-content:space-between;
         align-items: center;
-
     }
 
     .form_left {
@@ -570,9 +558,9 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: auto;
-        
+        height: auto;        
     }
+
     .footer_int img{
         width: 70px;
         height: 70px;
@@ -581,7 +569,6 @@ footer {
     .phone_img, .mail_img, .adress_img  {
         width: auto;
         padding: 10px;
-
     }
 
     .phone, .mail, .adress {
@@ -592,7 +579,6 @@ footer {
     .footer_copyright {
         display: flex;
         flex-direction: column;
-
         font-size: 14px;
         width: auto;
     }
@@ -600,9 +586,6 @@ footer {
     #map {
         display: none;
     }
-
-
-
 
 }
 
@@ -623,7 +606,6 @@ footer {
         align-items: center;
         width: auto;
         height: auto;
-    
     }
     
     .geral_left {
@@ -642,7 +624,6 @@ footer {
     
     .geral_right {
         display: none;
-    
     }
 
     #banner h1{
@@ -706,7 +687,6 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         margin-bottom: 0;
-
     }
     
     .form {
@@ -715,7 +695,6 @@ footer {
         flex-direction: column;
         justify-content:space-between;
         align-items: center;
-
     }
 
     .form_left {
@@ -745,9 +724,9 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: auto;
-        
+        height: auto;  
     }
+
     .footer_int img{
         width: 70px;
         height: 70px;
@@ -756,7 +735,6 @@ footer {
     .phone_img, .mail_img, .adress_img  {
         width: auto;
         padding: 10px;
-
     }
 
     .phone, .mail, .adress {
@@ -767,7 +745,6 @@ footer {
     .footer_copyright {
         display: flex;
         flex-direction: column;
-
         font-size: 14px;
         width: auto;
     }
@@ -775,8 +752,6 @@ footer {
     #map {
         display: none;
     }
-
-
 
 }
 

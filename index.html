@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Site 1</title>
+        <title>Meu Site</title>
 
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, user-scalable=0" />
         
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
+        <!--Lógica para o menu oculto-->
         <script type="text/javascript">
             window.onload = function() {
                 document.querySelector(".menuMobile").addEventListener("click", function(){
@@ -23,8 +24,12 @@
     </head>
     <body>
         <header>
+            
+            <!--Topo da página-->
             <div class="top1">
                 <div class="top_int">
+                    
+                    <!--Contato-->
                     <div class="phone">
                         <div class="top_phone_img">
                             <img src="assets/images/phone.png" border="0" width="20" height="20" />
@@ -41,7 +46,6 @@
                             meusite@meusite.com.br
                         </div>
                     </div>
-             
                     <div class="adress">
                         <div class="top_adress">
                             <img src="assets/images/locate.png" border="0" width="20" height="20" />
@@ -52,14 +56,21 @@
                     </div>
                 </div>
             </div>
+
            <div class="top2">
                 <div class="top_int">
+                    
+                    <!--Logo-->
                     <div class="logo"><img src="assets/images/logo.jpg" border="0" width ="300" height="80" /></div>
+                    
+                    <!--Menu mobile-->
                     <div class="menuMobile">
                         <div class="mn_line"></div>
                         <div class="mn_line"></div>
                         <div class="mn_line"></div>
                     </div>
+
+                    <!--Menu-->
                     <div class="menu">
                         <nav>
                             <ul>
@@ -75,6 +86,7 @@
             </div>
         </header>
 
+        <!--Banner principal-->
         <section id="banner">
             <div class="banner_text">
                 <h1>Meu Primeiro Site</h1>
@@ -89,7 +101,9 @@
                     </div>
                     <div class="left_title_sub">
                            MEU SITE
-                        </div>
+                    </div>
+
+                    <!--Informações sobre a empresa-->
                     <div class="bar">
                         <div class="bar_left"></div>
                         <div class="bar_right"></div>
@@ -103,7 +117,9 @@
                     <img src="assets/images/notebook.jpg" border="0" width="450" height="370" />
                 </div>
             </div>
-        </section>    
+        </section>  
+        
+        <!--Informações de serviços-->
         <section id="services">
             <div class="container">
                 <div class="widget">
@@ -151,6 +167,7 @@
             </div>
         </section>
 
+        <!--Entrar em contato-->   
         <section id="contact">
             <div class="container">
                 <div class="bar">
@@ -181,10 +198,12 @@
             </div>
         </section>
 
+        <!--Mapa-->
         <section id="map">
             <div class="map"> </div>
         </section>
 
+        <!--Contato rodapé-->
         <footer>
             <div class="container">
                 <div class="footer_int">
@@ -215,6 +234,7 @@
                 </div>
             </div>
 
+            <!--rodapé-->
             <div class="footer_copyright">
                 Copyright - Todos os direitors reservados.
             </div>
