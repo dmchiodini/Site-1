@@ -2,7 +2,7 @@ Inspirado em um layout gratuito encontrado no google.
 
 Utilizando: 
 <ul>
-  <li>Html<li>
+  <li>Html</li>
   <li>CSS (Flex-Box)</li>
 </ul>
 
